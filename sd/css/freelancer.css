@@ -97,20 +97,20 @@ header {
     color: 8e8e8e;
     background: #fff;
     background-image: url('../img/headerplot.svg') ;
-    
+
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
+
 }
 
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
-    
-    
+
+
 }
 
 header img {
@@ -162,7 +162,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 0px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {

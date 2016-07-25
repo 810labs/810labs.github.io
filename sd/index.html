@@ -64,13 +64,17 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#demos">Demos</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#portfolio">Toolchain</a>
                     </li>
-                    
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
@@ -89,7 +93,7 @@
                     <img class="img-responsive" width=40% src="img/810logo_sd.svg" alt="810labs">
                     <div class="intro-text">
                         <!-- <span class="name">Python Powered RF Engineering and Analytics.</span>
-                        
+
                         <hr>
                         <span class="skills">Software Division</span>
                         -->
@@ -98,43 +102,54 @@
             </div>
         </div>
     </header>
-   
-    <!-- About Section -->
-    <section  id="about">
+
+    <!-- Portfolio Grid Section -->
+    <section id="demos">
         <div class='well' class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class='star-well'>
+                    <h2>Demos</h2>
+                    <hr class="star-well">
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 .col-xs-6">
-                    <h4>Rapid Development with Python</h4>
-                    <p>
-                        <img style='padding:20px 20px 20px 20px' align='right'  src="img/python-powered-h.svg" class="img-responsive "  width='20%' alt=""></img>
-                        810 Labs Software Division develops custom engineering and 
-                    technical software using the Python programming language. 
-                    We leverage an array of open source scientific python modules such as scipy, numpy, pandas and others to enable rapid development of scientific applications.  </p>
+                <div class="col-sm-4 portfolio-item ">
+                    <div class='text-center'><h3>Time gate widget</h3></div>
+                    <a href="#timegatewidget" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/timegatewidget.png" class="img-responsive center-block" alt="">
+                    </a>
                 </div>
-                <div class="col-md-6 .col-xs-6">
-                    <h4>RF and Microwave</h4>
-                    
-                    <p>
-                        <img align='right' style='padding:20px 20px 20px 20px'  src="img/scikit-rf.svg" class="img-responsive "  width='20%' alt=""></img>
-                        We specialize in RF and Microwave applications. 
-                    At the heart of our RF and microwave applications is 
-                    <a href='http://www.scikit-rf.org' target='_blank'>scikit-rf</a>, 
-                    a BSD licensed  python module developed and supported 
-                    by 810 Labs. 
-                    </p>
+                <div class="col-sm-4 portfolio-item">
+                    <div class='text-center'><h3>multimoded analysis</h3></div>
+                    <a href="#multimodedanalysis" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/multimodedanalysis.png"  width = 93% class="img-responsive center-block" alt="">
+                    </a>
                 </div>
-                
-                
+                <div class="col-sm-4 portfolio-item">
+                     <div class='text-center'><h3>Z0 Renormalization</h3></div>
+                    <a href="#renorm" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+
+                            </div>
+                        </div><center>
+                        <img width=70% src="img/portfolio/renorm.png" class="img-responsive" alt=""></center>
+                    </a>
+                </div>
+
             </div>
         </div>
     </section>
-
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -179,10 +194,49 @@
                         <img src="img/portfolio/python-survey.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                
+
             </div>
         </div>
     </section>
+
+    <!-- About Section -->
+    <section  id="about" class='well'>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 ">
+                    <h2 ><center>About</center></h2>
+                    <hr class='star-well'>
+
+            <div class="row">
+                <div class="col-md-6 .col-xs-6">
+                    <h4>Rapid Development with Python</h4>
+                    <p>
+                        <img style='padding:20px 20px 20px 20px' align='right'  src="img/python-powered-h.svg" class="img-responsive "  width='20%' alt=""></img>
+                        810 Labs; Software Division develops custom engineering and
+                    technical software using the Python programming language.
+                    We leverage an array of open source scientific python modules such as scipy, numpy, pandas and others to enable rapid development of scientific applications.  </p>
+                </div>
+                <div class="col-md-6 .col-xs-6">
+                    <h4>RF and Microwave</h4>
+
+                    <p>
+                        <img align='right' style='padding:20px 20px 20px 20px'  src="img/scikit-rf.svg" class="img-responsive "  width='20%' alt=""></img>
+                        We specialize in RF and Microwave applications.
+                    At the heart of our RF and microwave applications is
+                    <a href='http://www.scikit-rf.org' target='_blank'>scikit-rf</a>,
+                    a BSD licensed  python module developed and supported
+                    by 810 Labs.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
 
 
     <!-- Contact Section -->
@@ -248,17 +302,17 @@
                     <div class="footer-col col-md-4">
                         <h3>Social</h3>
                         <p>We think social media is overrated</p>
-                        
+
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Contact</h3>
                         <div >
                         <p>
                         <a href='tel:14345152139'>
-                        <i class=" btn-social btn-outline glyphicon glyphicon-earphone"></i></a> &nbsp; 
+                        <!-- <i class=" btn-social btn-outline glyphicon glyphicon-earphone"></i></a> &nbsp;
                         <a href='tel:14345152139'>(434)-515-2139</a>
-                        <br>
-                        
+                        <br> -->
+
                         <a href='mailto:contact@810lab.com'>
                         <i class=" btn-social btn-outline glyphicon glyphicon-envelope"></i> </a>
                         <a href='mailto:contact@810lab.com'>contact@810lab.com</a></p>
@@ -285,6 +339,111 @@
         </a>
     </div>
 
+    <!-- -->
+    <div class="portfolio-modal modal fade" id="timegatewidget" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Time Gate When You Feel Like it</h3>
+                            <a data-dismiss="modal" href="#">
+                                <video width=100%  autoplay loop>
+                                    <source src="img/portfolio/timegatewidget.mp4" type="video/mp4">
+                                  <source src="img/portfolio/timegatewidget.ogv" type="video/ogg">
+                                Your browser does not support the video tag.
+                                </video></a>
+                            <hr>
+                            <p >
+                            &nbsp; &nbsp; &nbsp; &nbsp;
+                             Why time-gate onboard a VNA?<br> What if you want to change the gate parameters later? <br>What if you want to gate 1000's of measurements?<br> <br>
+                             Processing RF/Microwave data is complex, and each step may unknowingly introduce errors which comprimise the design process. 810 Labs believes     <strong> post</strong> processing should be flexible and interactive, so that the effect of each step can be explored without  re-taking measurements.</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="multimodedanalysis" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Simplify Multi-moded Analysis</h3>
+                            <a data-dismiss="modal" href="#">
+                                <video width=80%  autoplay loop>
+                                    <source src="img/portfolio/multimodedanalysis.mp4" type="video/mp4">
+                                  <source src="img/portfolio/multimodedanalysis.ogv" type="video/ogg">
+                                Your browser does not support the video tag.
+                                </video></a>
+                            <hr>
+                            <p >
+                            &nbsp; &nbsp; &nbsp; &nbsp;
+                             Ever  try to plot a *.s20p? <br><br> Big problems require new methods of interactive visualization. 810 Labs can help you leverage the tremendous work being done is the python data-science community to simplify your analysis. The example above shows the s-matrix of a 20-port network with an interactive frequency axis. This captures cut-on frequencies, isolation,  and crosstalk  in single visualization.   </p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="renorm" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Visualize Impedance Renormalization</h3>
+                            <a data-dismiss="modal" href="#">
+                                <video width=80%  autoplay loop>
+                                    <source src="img/portfolio/renorm.mp4" type="video/mp4">
+                                  <source src="img/portfolio/renorm.ogv" type="video/ogg">
+                                Your browser does not support the video tag.
+                                </video></a>
+                            <hr>
+                            <p >
+                            &nbsp; &nbsp; &nbsp; &nbsp;
+                            A lot of existing software tools force the workflow :
+                            <br>
+                             change setting, inspect results<br>
+                                change setting, inspect results<br>
+                                 change setting, inspect results<br>
+
+                            With interactive visualization, complex effects such as  impedance renormalization can be witnessed in real time. 810Labs create custom tools to support your workflows.
+                            </p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -302,13 +461,13 @@
                             <img src="img/portfolio/scikit-rf-title-flat.svg" class="img-responsive img-centered" alt=""></a>
                             <hr>
                             <p >
-                            &nbsp; &nbsp; &nbsp; &nbsp; 
-                            <strong>scikit-rf</strong> (aka <code>skrf</code>) 
+                            &nbsp; &nbsp; &nbsp; &nbsp;
+                            <strong>scikit-rf</strong> (aka <code>skrf</code>)
                             is an Open Source, BSD-licensed package for  RF/Microwave engineering implemented in the Python programming language. It provides a modern, object-oriented library  which is both flexible and scalable. Most importantly, scikit-rf allows the vast array of incredible python modules to be integrated with RF/microwave engineering.  S-parameter data can be crunched like big data,  plots are
                             one-liners, and web front-ends are whipped up in a  weekend.</p>
                             <br>
                             <p><strong>More  information about scikit-rf can  be found at <a href='http://www.scikit-rf.org' target='blank'>scikit-rf.org</a>. </strong>  </p>
-                            
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -324,10 +483,10 @@
                     </div>
                 </div>
             </div>
-            
-            
-            
-            
+
+
+
+
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -338,9 +497,9 @@
                             <img width=50% src="img/portfolio/jupyterpreview.png" class="img-responsive img-centered" alt=""></a>.
                             <hr>
                             <p>The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more.</p>
-                            
+
                             <p><strong>More  information about scikit-rf can  be found at <a href='http://www.jupyter.org' target='blank'>jupyter.org</a>. </strong>  </p>
-                            
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -360,19 +519,19 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            
-                            
+
+
                             <h2>THe python ecosystem</h2>
                             <hr class='star-primary'>
                             <br><br>
-                            
+
                             <a data-dismiss="modal" href="#">
                             <img width=60% src="img/portfolio/python-survey.png" class="img-responsive img-centered" alt=""></a>.
                             <hr>
                             <p>The python ecosystem is populated with a wide variety of open-source,  profesional quality modules. This allows new scientific  applications to be integrated with database systems,  local user interfaces,  and web-apps seamlessly.    Not only does this cut down on development costs and time, but allows for solutions that are otherwise intractable with multi-language approaches.</p>
-                            
+
                             <p><strong>More  information about popular python modules can  be found at <a href='https://wiki.python.org/moin/UsefulModules#Useful_Modules.2C_Packages_and_Libraries' target='blank'>wiki.python.org</a>. </strong>  </p>
-                            
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -380,7 +539,7 @@
             </div>
         </div>
     </div>
-    
+
 
 
     <!-- jQuery -->
@@ -400,7 +559,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
-    
+
 
 
 </body>
